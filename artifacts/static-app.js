@@ -928,7 +928,7 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 /* 12 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"movies\":[{\"name\":\"Godzilla\",\"year\":1954,\"id\":0},{\"name\":\"Godzilla Raids Again\",\"year\":1955,\"id\":1}]}");
+module.exports = JSON.parse("{\"movies\":[{\"name\":\"Godzilla\",\"year\":1954,\"id\":0,\"monsters\":[\"Godzilla\"]},{\"name\":\"Godzilla Raids Again\",\"year\":1955,\"id\":1,\"monsters\":[\"Godzilla\"]},{\"name\":\"Rodan\",\"year\":1956,\"id\":2,\"monsters\":[\"Rodan\",\"Meganulon\"]}]}");
 
 /***/ }),
 /* 13 */

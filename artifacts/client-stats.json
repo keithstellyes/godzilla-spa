@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "977e01a7ffd52f17ea78",
-  "time": 4615,
-  "builtAt": 1579565720708,
+  "hash": "7d3b5f24cbee4b23bd88",
+  "time": 1959,
+  "builtAt": 1579567978831,
   "publicPath": "/",
   "outputPath": "/Users/keithstellyes/projects/godzilla-spa/dist",
   "assetsByChunkName": {
@@ -13,7 +13,7 @@
     "Users/keithstellyes/projects/godzilla-spa/src/pages/about": "templates/Users/keithstellyes/projects/godzilla-spa/src/pages/about.211b0f89.js",
     "Users/keithstellyes/projects/godzilla-spa/src/pages/all-movies": "templates/Users/keithstellyes/projects/godzilla-spa/src/pages/all-movies.eaec5946.js",
     "Users/keithstellyes/projects/godzilla-spa/src/pages/index": "templates/Users/keithstellyes/projects/godzilla-spa/src/pages/index.a8193422.js",
-    "main": "main.977e01a7.js",
+    "main": "main.7d3b5f24.js",
     "styles": [
       "styles.6d4aca92.css",
       "templates/styles.6d4aca92.js"
@@ -22,8 +22,8 @@
   },
   "assets": [
     {
-      "name": "main.977e01a7.js",
-      "size": 8228,
+      "name": "main.7d3b5f24.js",
+      "size": 8345,
       "chunks": [
         5
       ],
@@ -160,7 +160,7 @@
         "styles.6d4aca92.css",
         "templates/styles.6d4aca92.js",
         "templates/vendors~main.f64df4b2.js",
-        "main.977e01a7.js"
+        "main.7d3b5f24.js"
       ],
       "children": {},
       "childAssets": {}
@@ -177,7 +177,7 @@
         "styles.6d4aca92.css",
         "templates/styles.6d4aca92.js",
         "templates/vendors~main.f64df4b2.js",
-        "main.977e01a7.js"
+        "main.7d3b5f24.js"
       ],
       "children": {},
       "childAssets": {}
@@ -959,14 +959,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 8190,
+      "size": 8347,
       "names": [
         "main"
       ],
       "files": [
-        "main.977e01a7.js"
+        "main.7d3b5f24.js"
       ],
-      "hash": "81175df70ebb89e3e0ef",
+      "hash": "fb3498f7611ee8f964b1",
       "siblings": [
         6,
         7
@@ -1466,7 +1466,7 @@
           "name": "/Users/keithstellyes/projects/godzilla-spa/src/data/movies.json",
           "index": 129,
           "index2": 125,
-          "size": 160,
+          "size": 317,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1543,7 +1543,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "{\n\t\"movies\": \n\t\t[\n\t\t\t{\n\t\t\t\t\"name\":\"Godzilla\",\n\t\t\t\t\"year\":1954,\n\t\t\t\t\"id\":0\n\t\t\t}, \n\t\t\t{\n\t\t\t\t\"name\": \"Godzilla Raids Again\",\n\t\t\t\t\"year\":1955,\n\t\t\t\t\"id\":1\n\t\t\t}\n\t\t]\n}"
+          "source": "{\n\t\"movies\": \n\t\t[\n\t\t\t{\n\t\t\t\t\"name\":\"Godzilla\",\n\t\t\t\t\"year\":1954,\n\t\t\t\t\"id\":0,\n\t\t\t\t\"monsters\":[\"Godzilla\"]\n\t\t\t}, \n\t\t\t{\n\t\t\t\t\"name\": \"Godzilla Raids Again\",\n\t\t\t\t\"year\":1955,\n\t\t\t\t\"id\":1,\n\t\t\t\t\"monsters\":[\"Godzilla\"]\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"Rodan\",\n\t\t\t\t\"year\":1956,\n\t\t\t\t\"id\":2,\n\t\t\t\t\"monsters\":[\"Rodan\", \"Meganulon\"]\n\t\t\t}\n\t\t]\n}"
         },
         {
           "id": 56,
@@ -18784,7 +18784,7 @@
       "name": "/Users/keithstellyes/projects/godzilla-spa/src/data/movies.json",
       "index": 129,
       "index2": 125,
-      "size": 160,
+      "size": 317,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -18861,7 +18861,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "{\n\t\"movies\": \n\t\t[\n\t\t\t{\n\t\t\t\t\"name\":\"Godzilla\",\n\t\t\t\t\"year\":1954,\n\t\t\t\t\"id\":0\n\t\t\t}, \n\t\t\t{\n\t\t\t\t\"name\": \"Godzilla Raids Again\",\n\t\t\t\t\"year\":1955,\n\t\t\t\t\"id\":1\n\t\t\t}\n\t\t]\n}"
+      "source": "{\n\t\"movies\": \n\t\t[\n\t\t\t{\n\t\t\t\t\"name\":\"Godzilla\",\n\t\t\t\t\"year\":1954,\n\t\t\t\t\"id\":0,\n\t\t\t\t\"monsters\":[\"Godzilla\"]\n\t\t\t}, \n\t\t\t{\n\t\t\t\t\"name\": \"Godzilla Raids Again\",\n\t\t\t\t\"year\":1955,\n\t\t\t\t\"id\":1,\n\t\t\t\t\"monsters\":[\"Godzilla\"]\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"Rodan\",\n\t\t\t\t\"year\":1956,\n\t\t\t\t\"id\":2,\n\t\t\t\t\"monsters\":[\"Rodan\", \"Meganulon\"]\n\t\t\t}\n\t\t]\n}"
     },
     {
       "id": 51,

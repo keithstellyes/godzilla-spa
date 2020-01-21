@@ -18,6 +18,12 @@
 				"year":1956,
 				"id":2,
 				"monsters":["Rodan", "Meganulon"]
+			},
+			{
+				"name": "Varan",
+				"year":1958,
+				"id":3,
+				"monsters":["Varan"]
 			}
 		]
 }

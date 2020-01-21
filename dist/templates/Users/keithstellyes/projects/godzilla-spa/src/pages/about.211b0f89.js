@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{52:function(e,n,l){"use strict";l.r(n);var t=l(0),a=l.n(t);n.default=function(){return a.a.createElement("div",null,a.a.createElement("p",null,"Godzilla SPA is a website for Godzilla fans by Keith Stellyes!"))}}}]);

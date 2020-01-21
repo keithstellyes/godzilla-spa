@@ -2,26 +2,14 @@ import path from 'path'
 import axios from 'axios'
 
 export default {
+  siteRoot: "https://keithstellyes.github.io",
+  basePath: "godzilla-spa",
   getRoutes: async () => {
     const { data: posts } = await axios.get(
       'https://jsonplaceholder.typicode.com/posts'
     )
 
-    return [
-      {
-        path: '/blog',
-        getData: () => ({
-          posts,
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          template: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
-      },
-    ]
+    return []
   },
   plugins: [
     [

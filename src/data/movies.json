@@ -24,6 +24,30 @@
 				"year":1958,
 				"id":3,
 				"monsters":["Varan"]
+			},
+			{
+				"name": "Mothra",
+				"year":1961,
+				"id":4,
+				"monsters":["Mothra", "Vampire Plant"]
+			},
+			{
+				"name": "King Kong vs. Godzilla",
+				"year":1962,
+				"id":5,
+				"monsters":["King Kong", "Godzilla", "Giant Lizard", "Giant Octopus"]
+			},
+			{
+				"name":"Atragon",
+				"year":1962,
+				"id":6,
+				"monsters":["Manda"]
+			},
+			{
+				"name":"Mothra vs. Godzilla",
+				"year":1964,
+				"id":7,
+				"monsters":["Mothra", "Godzilla"]
 			}
 		]
 }

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{61:function(e,n,t){"use strict";t.r(n);var l=t(0),a=t.n(l);n.default=function(){return a.a.createElement("div",{style:{textAlign:"center"}},a.a.createElement("h1",null,"Welcome to Godzilla's SPA!"))}}}]);

@@ -5,10 +5,6 @@ export default {
   siteRoot: "https://keithstellyes.github.io",
   basePath: "godzilla-spa",
   getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
-
     return []
   },
   plugins: [
@@ -18,6 +14,7 @@ export default {
         location: path.resolve('./src/pages'),
       },
     ],
+    require.resolve('react-static-plugin-sass'),
     require.resolve('react-static-plugin-reach-router'),
     require.resolve('react-static-plugin-sitemap'),
   ],

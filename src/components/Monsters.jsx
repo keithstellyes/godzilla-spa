@@ -23,7 +23,8 @@ export class Monsters extends React.Component {
 		this.sortByAlphabetical = this.sortByAlphabetical.bind(this);
 		this.sortByMostMonsters = this.sortByMostMonsters.bind(this);
 
-		this.sortByAlphabetical();
+		// normally assigning directly is unnecessary, but the setState() was getting batched so we force it here
+		this.state.content = this.sortByMostMonsters();
 	}
 
  	render() {
@@ -39,14 +40,15 @@ export class Monsters extends React.Component {
 		monsters.sort(comparator);
 		let newContent = (<>{monsters.map((monster, i) => this.monsterWidget(monster, this.state.monstersDict[monster]))}</>);
 		this.setState({content : newContent});
+		return newContent;
 	}
 
 	sortByAlphabetical() {
-		this.sortMonsters((a, b) => a < b ? -1 : 1);
+		return this.sortMonsters((a, b) => a < b ? -1 : 1);
 	}
 
 	sortByMostMonsters() {
-		this.sortMonsters((a, b) => this.state.monstersDict[b].length - this.state.monstersDict[a].length);
+		return this.sortMonsters((a, b) => this.state.monstersDict[b].length - this.state.monstersDict[a].length);
 	}
 
 	monsterWidget(monster, movies) {

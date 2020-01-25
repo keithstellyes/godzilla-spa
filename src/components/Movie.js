@@ -1,9 +1,22 @@
 import React from 'react'
 
 export default function Movie(props) {
+	let monstersEntry = '';
+	if(Array.isArray(props.movie.monsters)) {
+		monstersEntry = props.movie.monsters.join(', ');
+	}
 	return (
-		<div>
-			<p>{props.movie.name} <b>{props.movie.year}</b></p>
-		</div>
+		<table>
+			<tr>
+				<th>Title</th>
+				<th>Year released</th>
+				<th>Monsters</th>
+			</tr>
+			<tr>
+				<td>{props.movie.title}</td>
+				<td>{props.movie.year}</td>
+				<td>{monstersEntry}</td>
+			</tr>
+		</table>
 	);
 }

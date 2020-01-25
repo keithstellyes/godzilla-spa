@@ -18,6 +18,7 @@ function App() {
         <Link to="about">About</Link>
         <Link to="all-movies">Movies</Link>
         <Link to="all-monsters">Monsters</Link>
+        <Link to="all-timelines">Timelines</Link>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>

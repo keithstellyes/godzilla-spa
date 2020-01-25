@@ -48,6 +48,48 @@
 				"year":1964,
 				"id":7,
 				"monsters":["Mothra", "Godzilla"]
+			},
+			{
+				"name":"Ghidorah, the Three-Headed Monster",
+				"year":1964,
+				"id":8,
+				"monsters":["Godzilla", "Rodan", "Mothra", "Ghidorah"]
+			},
+			{
+				"name":"Frankenstein vs. Baragon",
+				"year":1965,
+				"id":9,
+				"monsters":["Frankenstein", "Baragon", "Giant Boar"]
+			},
+			{
+				"name":"Invasion of Astro-Monster",
+				"year":1965,
+				"id":10,
+				"monsters":["Godzilla", "Rodan", "Ghidorah"]
+			},
+			{
+				"name":"The War of the Gargantuas",
+				"year":1966,
+				"id":11,
+				"monsters":["Gaira", "Sanda", "Giant Octopus"]
+			},
+			{
+				"name":"Ebirah, Horror of the Deep",
+				"year":1966,
+				"id":12,
+				"monsters":["Godzilla", "Ebirah", "Mothra", "Giant Condor"]
+			},
+			{
+				"name": "King Kong Escapes",
+				"year":1967,
+				"id":13,
+				"monsters":["King Kong", "Mechani-Kong", "Gorosaurus", "Giant Sea Serpent"]
+			},
+			{
+				"name": "Son of Godzilla",
+				"year":1967,
+				"id":14,
+				"monsters":["Kamacuras", "Kumonga", "Minilla"]
 			}
 		]
 }

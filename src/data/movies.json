@@ -89,7 +89,19 @@
 				"name": "Son of Godzilla",
 				"year":1967,
 				"id":14,
-				"monsters":["Kamacuras", "Kumonga", "Minilla"]
+				"monsters":["Godzilla", "Kamacuras", "Kumonga", "Minilla"]
+			},
+			{
+				"name": "Godzilla vs. Hedorah",
+				"year":1971,
+				"id":15,
+				"monsters":["Godzilla", "Hedorah"]
+			},
+			{
+				"name": "Godzilla vs. Gigan",
+				"year": 1972,
+				"id": 16,
+				"monsters":["Godzilla", "Anguirus", "Gigan", "Ghidorah"]
 			}
 		]
 }

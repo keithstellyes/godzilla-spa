@@ -3,9 +3,10 @@ import { useRouteData } from 'react-static'
 import movieDataset from 'data/movies.json'
 import timelines from 'data/timelines.json'
 import Movies from 'components/Movies'
+import { getUrlParams } from 'shared/common.jsx'
 
 export default (props) => {
-	const urlParams = new URLSearchParams(window.location.search);
+	const urlParams = getUrlParams();
 	// const { timelineid } = useRouteData();
 	const timelineId = urlParams.get('id');
 	let timeline = null;
@@ -23,7 +24,6 @@ export default (props) => {
 	let movies = [];
 	for(let i = 0; i < timeline.movies.length; i++) {
 		for(let j = 0; j < movieDataset.movies.length; j++) {
-			console.log(timeline.movies[i].id, movieDataset.movies[j].id);
 			if(timeline.movies[i] == movieDataset.movies[j].id) {
 				movies.push(movieDataset.movies[j]);
 				break;

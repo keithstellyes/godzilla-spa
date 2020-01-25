@@ -1,24 +1,14 @@
 import React from 'react'
 import movies from 'data/movies.json'
 import Movies from 'components/Movies'
+import {allMonsters} from 'shared/monsters.jsx'
 
 export class Monsters extends React.Component {
 	constructor(props) {
 		super(props);
 
 		// we can cache these results so do it here :)
-		this.state = {content : null, monstersDict: {}};
-
-		for(let i = 0; i < movies.movies.length; i++) {
-			let movie = movies.movies[i];
-			for(let j = 0; j < movie.monsters.length; j++) {
-				let monster = movie.monsters[j];
-				if(Object.keys(this.state.monstersDict).indexOf(monster) == -1) {
-					this.state.monstersDict[monster] = [];
-				}
-				this.state.monstersDict[monster].push(movie);
-			}
-		}
+		this.state = {content : null, monstersDict: allMonsters()};
 
 		this.sortByAlphabetical = this.sortByAlphabetical.bind(this);
 		this.sortByMostMonsters = this.sortByMostMonsters.bind(this);
